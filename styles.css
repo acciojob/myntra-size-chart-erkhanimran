@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+	width:1200px;
+	
+  }
+  table {
+    border-collapse: collapse;
+    width: 40%;
+  }
+  th, td {
+    padding: 15px;
+  }
+  th{
+    background-color: rgb(165, 12, 12);
+    color: white;
+  }
